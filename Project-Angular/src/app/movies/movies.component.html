@@ -1,0 +1,36 @@
+
+<div class="movie-component">
+  <div class="front-div">
+    <div class="container-fluid row p-1">
+      <div class="carousel-bottoms">
+        <button class="carousel-bottom carousel-control-left col-6" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+        </button>
+        <button class="carousel-bottom carousel-control-right col-6" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+    <div id="carouselExample" class="carousel slide p-3">
+      <div class="carousel-inner" id="movie_list"> 
+        <div class=" card1 card more-style">
+          <img src="" class="card-img-top movies" alt="...">
+          <div class="card-body more-style">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <p class="card-text"></p>
+            <span class="badge text-bg-warning"></span>
+            <button class="btn information-bottom btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${movies.id}" aria-expanded="false" aria-controls="collapseExample">
+             Información
+             </button> 
+             <div class="collapse" id="collapse${movies.id}">
+         <div class="card card-body">
+         </div>
+         </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

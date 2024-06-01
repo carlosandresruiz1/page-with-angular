@@ -1,0 +1,33 @@
+.contacts-component {
+    background: linear-gradient(#01050A,#000b38,#01050A);
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% of the parent container */
+    background-position: fixed; /* Set the background position to fixed */
+}
+.cards-container {
+    display: flex; /* Display the cards in a row */
+    flex-wrap: wrap; /* Wrap the cards to the next line */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 20px; /* Add some padding around the cards */
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+@font-face {
+    font-family: OutRun;
+    src: url("https://jackphilippi.com.au/cdn/fonts/outrun_future.otf") format("opentype");
+  }
+h1{
+    font-family: Outrun;
+    text-transform: uppercase;
+    color: yellow;
+}
+.cards {
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to semi-translucent white */
+    border: 2px solid yellow; /* Add a yellow glowing border */
+    box-shadow: 0 0 10px yellow; /* Add a yellow glowing box shadow */
+    padding: 10px; /* Add some padding to the cards */
+    margin: 10px; /* Add some margin to the cards */
+}

@@ -1,0 +1,30 @@
+.inicio-component {
+    background-image: url('https://video-images.vice.com/articles/632225432fc746009c45d508/lede/1663182643944-cyberspunk.png?crop=1xw:1xh;center,center');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes flicker {
+    0% {
+        text-shadow: 0 0 20px rgb(238, 203, 8); /* Increased intensity */
+    }
+    50% {
+        text-shadow: none;
+    }
+    100% {
+        text-shadow: 0 0 20px rgb(229, 233, 8); /* Increased intensity */
+    }
+}
+
+.welcome {
+    animation: flicker 1.5s infinite;
+    text-shadow: 0 0 20px purple; /* Changed color to purple */
+}
+.hello{
+    color: #fafafa;
+    background-color: rgba(159, 247, 232, 0.116);
+}

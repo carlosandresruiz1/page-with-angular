@@ -1,0 +1,33 @@
+.movie-component{
+    background-image: url(https://i.ytimg.com/vi/pIJmx2RyAVw/maxresdefault.jpg);
+    background-position: fixed;
+}
+
+.front-div{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movies {
+    width: auto;
+    height: 50%;
+  }
+.movies:hover{
+    color: grayscale(100%);
+    cursor: progress;
+    
+}
+.card1{
+    background-color: blueviolet; 
+}
+
+.carousel-bottom{
+    width: 50px;
+    height: 50px;
+    bottom: auto;
+    background-color: black;
+    
+}
+  
